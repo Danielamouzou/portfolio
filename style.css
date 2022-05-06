@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,300&display=swap');
+
+body{
+
+	background-color: #FFFFFF;
+	font-family:'Raleway', sans-serif;
+	margin: 0;
+}
+header{
+	background-color: white;
+	background-size: cover;
+	display: block;
+}
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align:center;
+}
+
+h3{
+	text-align: center;
+}
+p{
+	text-align: left;
+}
+nav{
+	background-color: black;
+	border-top: 1px solid darkblue;
+	border-bottom: 1px solid darkblue;
+}
+nav ul{
+	list-style-type:none;
+	text-align: center;
+	margin: 8px;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	background-size: cover;
+	text-decoration-color: white;
+}
+footer{
+	
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+}
+form{
+	border:3px solid gray;
+}
+img{
+	background-color: #CDEAF8;
+}
+canvas{
+    border:3px solid yellow;
+    background-color: darkgray;
+    background-image: url();
+}    
+input[type=submit]{
+	background-color: blue;
+}  
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link{
+     color: white;
+}
+
+
+nav a:visited {
+    color:white;
+}
+
+
+nav a:hover  {
+    color:yellow;
+    text-decoration: none;
+}
+
+
+
+nav a:active  {
+    color:black;
+}
+.footer-icons{
+	color: #ffffff;
+	font-size: 20px;
+}
+.footer-icons h2{
+	margin-top: 0;
+}
+
+.big-3{
+	text-align:center;
+}
+
+.big-3 i.fa{
+	font-size: 6em;
+	color: #3D3491;
+}
+.home-hero{
+	display: inline;
+}
+button{
+	background-color: #3D3491;
+	color: white;
+	padding: 3px 15px;
+	border-radius: 3px;
+}
+button:hover{
+	background-color: black;
+}
+
+/*Styles for the footer */
+footer{
+	clear:both;
+	background-color: #3D3491;
+	color: white;
+	margin:40px 0 0 0;
+	display:block;
+	border-top: 1px solid gray;
+}
+footer h2{
+	text-align: left;
+}
+footer a{
+	text-decoration:none;
+}
+footer a:link{
+	color:white;
+}
+footer a:visited{
+	color:white;
+}
+footer a:hover{
+	color:#CDEAF8;
+	text-decoration: none;
+}
+footer a:active{
+	color: #eeeeee;
+}
+iframe{
+	box-shadow: 5px 5px 5px gray;
+}
+form{
+	border: 5px solid gray;
+}
+main iframe{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+.footer-bottom{
+	background-color: black;
+	padding: 10px;
+	color: #CDEAF8;
+	text-align:center;
+	width: 100%;
+}
+
+.icons .fa{
+    color: #ffffff;
+}
+i.fa{
+            color: white;
+            font-size: 2em;
+ }
+
+.footer1000{
+	
+	padding: 40px 0 ;
+    color: #ffffff;
+    max-width:1000px;
+    margin:0 auto;
+    
+}
+
+.photo-sp{
+	margin-top: 80px;
+}
+
+
+/*  https://css-tricks.com/examples/hrs/ */
+hr {
+	margin: 60px auto;
+     border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/*CSS Adjustments for Tablets*/
+@media only screen and (max-width: 1024px){
+   h1{
+   	font-size: 2em;
+   }
+}
+
+/*Media queries for smartphones go here */
+@media only screen and (max-width: 768px){
+   h1{
+   	font-size: 1.5em;
+   }
+}
+td,th{
+	border: 1px solid black;
+	padding: 8px;
+}
+th{
+	background-color: yellow;
+}
+table{
+	border-collapse: collapse;
+	border: 4px inset orange;
+}
+label{
+	float: left 8em;
+	padding-right: 1em;
+}
+form{
+	max-width: 350px;
+	border: 3px solid yellow;
+	padding: 20px;
+	margin: 0 auto;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+	display: block;
+	background-color: lightgray;
+}
