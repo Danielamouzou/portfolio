@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,100&display=swap');
+
+body{
+
+	background-color: #FFFFFF;
+	font-family:"roboto", sans-serif;
+	margin: 0;
+	}
+.home-hero{
+	background-image: url(images/images/header.jpg);
+	height: 400px;
+	width: 1200px;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding-left: 20px;
+	text-shadow: 4px 3px 0 #7A7A7A;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+i.fa{
+            color: sky blue;
+            font-size: 8em;
+              }
+header{
+	background-color: black;
+	display: block;
+}
+img{
+	display: block;
+	margin:0 auto;
+	border: 2px solid yellow;
+	border-top-left-radius: 5px solid yellow;
+	border-top-right-radius: 5px solid yellow;
+	border-bottom-left-radius: 5px solid yellow;
+	border-bottom-right-radius: 5px solid yellow;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+
+h2{
+	text-align: left;
+	color: white;
+}
+p{
+	color: white;
+}
+a{
+	color: black;
+}
+blockquote{
+	border-left: 
+}
+i.fa{
+    color: black;
+    font-size: 8em;
+     }
+nav{
+	background-color: yellow;
+	border-top: 2px solid darkblue;
+	border-bottom: 2px solid darkblue;
+}
+nav ul{
+	list-style-type:none;
+	text-align: center;
+}
+main{
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: black;
+	
+
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	background-color: yellow;
+
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link{
+     color: purple;
+}
+
+
+nav a:visited {
+    color:blue;
+    
+}
+
+
+nav a:hover  {
+    color:gray;
+}
+
+
+
+nav a:active  {
+    color:black;
+   
+}
+
+/*CSS Adjustments for Tablets*/
+@media only screen and (max-width: 1024px){
+   h1{
+   	font-size: 2em;
+   }
+}
+
+/*Media queries for smartphones go here */
+@media only screen and (max-width: 768px){
+   h1{
+   	font-size: 1.5em;
+   }
+}
